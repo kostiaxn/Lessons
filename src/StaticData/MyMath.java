@@ -5,13 +5,14 @@ public class MyMath {
     public static int b = 1;
     private static int count = 0;
 
-    public MyMath(){
+    public MyMath() {
         count++;
     }
+
     public static int getAdd() {
         return (a + b);
 
-            }
+    }
 
     public static int getSub() {
         return (a - b);
