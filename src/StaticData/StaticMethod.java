@@ -1,7 +1,5 @@
 package StaticData;
 
-import java.sql.SQLOutput;
-
 public class StaticMethod {
     public static void main(String[] args) {
         new MyMath();
