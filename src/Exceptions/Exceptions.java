@@ -14,6 +14,9 @@ public class Exceptions {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Ошибка тут ------- " + e);
         }
+        finally {
+            System.out.println("Программа завершается");
+        }
 
 
 
