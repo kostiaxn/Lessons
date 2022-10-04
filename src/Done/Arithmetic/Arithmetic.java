@@ -1,4 +1,4 @@
-package Arithmetic_done;
+package Done.Arithmetic;
 
 public class Arithmetic {
     public static void main(String[] args) {

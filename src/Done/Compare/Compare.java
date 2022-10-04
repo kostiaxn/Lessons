@@ -1,4 +1,4 @@
-package Compare_done;
+package Done.Compare;
 
 public class Compare {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HelloWorld_done;
+package Done.HelloWorld;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package Variables_done;
+package Done.Variables;
 
 public class Variables {
     public static void main(String[] args) {
