@@ -1,4 +1,4 @@
-package Compare;
+package Compare_done;
 
 public class Compare {
     public static void main(String[] args) {
