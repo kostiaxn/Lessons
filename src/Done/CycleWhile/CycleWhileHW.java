@@ -9,7 +9,7 @@
 
         */
 
-package CycleWhile;
+package Done.CycleWhile;
 
 import javax.swing.*;
 

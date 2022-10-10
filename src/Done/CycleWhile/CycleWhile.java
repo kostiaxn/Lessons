@@ -1,7 +1,6 @@
-package CycleWhile;
+package Done.CycleWhile;
 
 import javax.swing.*;
-import java.sql.SQLOutput;
 
 public class CycleWhile {
     public static void main(String[] args) {
