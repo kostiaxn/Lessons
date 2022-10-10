@@ -1,33 +1,22 @@
 package CycleFor;
 
-import javax.swing.*;
-
 public class CycleFor {
     public static void main(String[] args) {
-        String in;
-        in = JOptionPane.showInputDialog(null, "Введите число");
+        for (int i = 0; i <= 100; i++) { // 1. объявление переменной i, 2. условие продолжения цикла (проверка), 4. что происходит после цикла
+            System.out.println(i + " "); // 3. выполнение цикла
+        }
+        System.out.println();
+        for (int i = 0; i < 100; i++) {
+            if (i % 2 == 0) System.out.println(i + " ");
+        }
+        int summa = 0;
+        int n = 10;
+        for (int i = 0; i <= n; i += 2) {
+            summa += i; // 2+4+6+8+10
 
-        if (in != null && !in.equals("")) {
+        }
+        System.out.println();
+        System.out.println("Сумма чётных чисел от 0 до " + n + " = " + summa);
 
-
-            int in_s = Integer.parseInt(in);
-            if (in_s > 0) {
-                int summa = 0;
-                int n = in_s;
-
-                for (int i = 0; i <= n; i++) {
-                    summa += i;
-                }
-                JOptionPane.showMessageDialog(null, "Сумма чисел от 0 до " + n + " = " + summa);
-            }
-
-            if (in_s == 0)
-                JOptionPane.showMessageDialog(null, "Вы ввели ноль");
-            if (in_s < 0)
-                JOptionPane.showMessageDialog(null, "Вы ввели отрицательное число");
-
-
-        } else JOptionPane.showMessageDialog(null, "Вы не ввели число");
     }
 }
-
