@@ -9,7 +9,7 @@
     Пример: Пользователь ввёл 7, значит, надо вычислить сумму: 1+2+3+4+5+6+7=?
 
 */
-package CycleFor;
+package Done.CycleFor;
 
 
 import javax.swing.*;

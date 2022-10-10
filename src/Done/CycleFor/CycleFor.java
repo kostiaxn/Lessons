@@ -1,4 +1,4 @@
-package CycleFor;
+package Done.CycleFor;
 
 public class CycleFor {
     public static void main(String[] args) {
