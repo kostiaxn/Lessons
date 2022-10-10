@@ -1,4 +1,4 @@
-package SwitchCase;
+package Done.SwitchCase;
 
 import javax.swing.*;
 

@@ -20,7 +20,7 @@ public class CycleWhile {
                 i = 1;
                 while (i <= n) {
                     summa += i;
-                    i++;
+
                 }
                 System.out.println("Сумма чисел от 0 до " + n + " = " + summa);
             }
