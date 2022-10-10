@@ -1,6 +1,4 @@
-package CycleDoWhile;
-
-import javax.swing.*;
+package Done.CycleDoWhile;
 
 public class CycleDoWhile {
     public static void main(String[] args) {

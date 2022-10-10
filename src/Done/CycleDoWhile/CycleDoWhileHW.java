@@ -6,7 +6,7 @@
 введёт правильный вариант. Как только он вводит правильный вариант, выходите из
 цикла, и выводите JOptionPane с сообщением: «Спасибо!»
  */
-package CycleDoWhile;
+package Done.CycleDoWhile;
 
 import javax.swing.*;
 
@@ -14,17 +14,21 @@ public class CycleDoWhileHW {
     public static void main(String[] args) {
         int a_s = 0;
         do { // делаем это
-            String in;
+            try { String in;
             in = JOptionPane.showInputDialog(null, "Введите целое положительное число");
             if (in != null && !in.equals("")) {
-                a_s = Integer.parseInt(in);
+                a_s = Integer.parseInt(in); } }
+            catch (NumberFormatException e) {
+                    JOptionPane.showMessageDialog(null,"Вы ввели текст. Тут ошибка NumberFormatException ");
+
                 if (a_s <= 0) {
                     JOptionPane.showMessageDialog(null, "Вы не ввели положительное целое число");
+
                 }
 
             }
 
         } while (a_s < 1);
-        JOptionPane.showMessageDialog(null, "Спасибо");
+        JOptionPane.showMessageDialog(null, "Спасибо!");
     }
 }
