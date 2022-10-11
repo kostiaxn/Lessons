@@ -1,4 +1,4 @@
-package Array;
+package Done.Array;
 
 public class ArrayHW {
     public static void main(String[] args) {
