@@ -1,4 +1,4 @@
-package MultiArray;
+package Done.MultiArray;
 
 public class MultiArrayHW {
     public static void main(String[] args) {
@@ -16,5 +16,9 @@ public class MultiArrayHW {
             }
         }
         System.out.println("Сумма всех чисел в массиве = " + summa);
+
+
+
+
     }
 }

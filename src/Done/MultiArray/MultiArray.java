@@ -1,4 +1,4 @@
-package MultiArray;
+package Done.MultiArray;
 
 public class MultiArray {
     public static void main(String[] args) {
