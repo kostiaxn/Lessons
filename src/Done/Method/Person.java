@@ -1,6 +1,4 @@
-package Method;
-
-import java.sql.SQLOutput;
+package Done.Method;
 
 public class Person {
     String name;
