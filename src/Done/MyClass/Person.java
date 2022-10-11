@@ -1,4 +1,4 @@
-package MyClass;
+package Done.MyClass;
 
 public class Person {
     String name;

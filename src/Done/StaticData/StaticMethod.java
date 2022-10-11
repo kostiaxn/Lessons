@@ -1,4 +1,4 @@
-package StaticData;
+package Done.StaticData;
 
 public class StaticMethod {
     public static void main(String[] args) {

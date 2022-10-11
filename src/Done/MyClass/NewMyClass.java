@@ -1,4 +1,4 @@
-package MyClass;
+package Done.MyClass;
 
 public class NewMyClass {
     public static void main(String[] args) {

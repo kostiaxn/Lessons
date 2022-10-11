@@ -1,6 +1,4 @@
-package MyClass;
-
-import java.sql.SQLOutput;
+package Done.MyClass;
 
 public class MyClass {
     public static void main(String[] args) {

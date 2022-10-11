@@ -1,4 +1,4 @@
-package StaticData;
+package Done.StaticData;
 
 public class MyMath {
     public static int a = 1;
